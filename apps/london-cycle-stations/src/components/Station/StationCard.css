@@ -1,0 +1,71 @@
+.station-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: var(--padding-normal);
+    border-radius: var(--padding-normal);
+    box-shadow: 0 0 15px #e3e3e3;
+    height: 145px;
+}
+
+@media (max-width: 450px) {
+    .station-card-container {
+        width: 100vw;
+    }
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: unset;
+    text-align: left;
+}
+
+.location-container {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.location-tag {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.data-container {
+    display: flex;
+    justify-content: space-around;
+    margin: unset;
+
+    p {
+        margin: unset;
+    }
+}
+
+p {
+    margin: unset;
+}
+
+.bike-availability-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .low-availability {
+        color: var(--color-danger)
+    }
+
+    .med-availability {
+        color: var(--color-warn)
+    }
+
+    .high-availability {
+        color: var(--color-success)
+    }
+}
+.bike-availability-number {
+    font-size: 24px;
+    font-weight: bold;
+}
+

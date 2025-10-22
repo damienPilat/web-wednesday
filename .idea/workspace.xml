@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f4dfc14-cd54-48fd-ab95-894948c27f1e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/.eslintrc.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/public/bike.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/components/Map/FitMarkersToView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/components/Map/Map.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/components/Station/Filters.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/components/Station/StationCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/components/Station/StationCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/components/Station/StationCardSkeleton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/components/Station/StationCardSkeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/components/Station/StationContainer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/components/Station/StationContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/components/Station/StationSearchBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/hooks/useDebounce.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/hooks/useDebounceFunc.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/hooks/useInterval.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/hooks/usePagination.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/hooks/useStationData.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/type/StationData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/london-cycle-stations/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/components/Credits/Credits.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/components/Credits/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/components/Pagination/Pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/components/Pagination/PaginationPrevNext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/components/Pagination/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/components/PlanSection/PlanSection.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/components/PlanSection/PlanSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/components/PlanSection/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/components/Search/SearchBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/components/Search/SearchBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/components/Search/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/components/counter.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/components/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="34QamBFv61rrgbDIp6JzoScWQML" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/damien/IdeaProjects/web-wednesdays/packages/ui/components",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "npm.london-bike-stations > dev.executor": "Run",
+    "ts.external.directory.path": "/Users/damien/IdeaProjects/web-wednesdays/apps/web/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/ui/components" />
+      <recent name="$PROJECT_DIR$/apps/london-cycle-stations" />
+      <recent name="$PROJECT_DIR$/apps/london-bike-stations" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="london-bike-stations &gt; dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/apps/london-bike-stations/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.london-bike-stations &gt; dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f4dfc14-cd54-48fd-ab95-894948c27f1e" name="Changes" comment="" />
+      <created>1761148407566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761148407566</updated>
+      <workItem from="1761148409601" duration="721000" />
+      <workItem from="1761149158511" duration="350000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/hooks/useInterval.js" />
+        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/hooks/useDebounce.js" />
+        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/hooks/useDebounceFunc.js" />
+        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/hooks/useStationData.js" />
+        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/hooks/usePagination.js" />
+        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/main.js" />
+        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/components/Station/StationSearchBar.js" />
+        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/components/Station/Filters.js" />
+        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/components/Station/StationCard.js" />
+        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/components/Station/StationCardSkeleton.js" />
+        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/components/Station/StationContainer.js" />
+        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/type/StationData.js" />
+        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/components/Map/FitMarkersToView.js" />
+        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/components/Map/Map.js" />
+      </list>
+    </option>
+  </component>
+</project>

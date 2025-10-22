@@ -1,0 +1,32 @@
+.searchBar-container {
+    background: white;
+    display: flex;
+    gap: var(--spacing-medium);
+    align-items: center;
+    padding: var(--spacing-medium) var(--spacing-large);
+
+    label {
+        font-size: var(--font-size-medium);
+        font-weight: bold;
+    }
+
+    input {
+        height: 36px;
+        font-size: 1.2rem;
+        padding: 4px 20px;
+        border-radius: var(--spacing-medium);
+        border: 1px solid grey;
+        flex-grow: 1;
+        background-color: #f9f9f9;
+    }
+}
+
+@media (max-width: 450px) {
+    .searchBar-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        border-top: 1px solid grey;
+    }
+}
+
