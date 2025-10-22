@@ -17,6 +17,7 @@ export default function StationContainer() {
 
     const [searchResults, setSearchResults] = useState<Station[]>([]);
 
+    // @ts-expect-error - Todo - use filteredResults (currently has issue in stopping search from working)
     const [filteredResults, setFilteredResults] = useState<Station[]>([])
 
     useEffect(() => {

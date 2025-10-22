@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4dfc14-cd54-48fd-ab95-894948c27f1e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="5f4dfc14-cd54-48fd-ab95-894948c27f1e" name="Changes" comment="Update readme">
+      <change beforePath="$PROJECT_DIR$/apps/london-cycle-stations/src/components/Station/StationContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/components/Station/StationContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/london-cycle-stations/src/hooks/useDebounceFunc.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +81,17 @@
       <option name="presentableId" value="Default" />
       <updated>1761148407566</updated>
       <workItem from="1761148409601" duration="721000" />
-      <workItem from="1761149158511" duration="1069000" />
+      <workItem from="1761149158511" duration="1549000" />
     </task>
+    <task id="LOCAL-00001" summary="Update readme">
+      <option name="closed" value="true" />
+      <created>1761150247837</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761150247838</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +114,9 @@
         <option value="$PROJECT_DIR$/apps/london-bike-stations/src/components/Map/Map.js" />
       </list>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update readme" />
   </component>
 </project>
