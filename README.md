@@ -1,32 +1,26 @@
-# `Turborepo` Vite starter
+# `Web Wednesdays` Project
 
-This is a community-maintained example. If you experience a problem, please submit a pull request with a fix. GitHub Issues will be closed.
+A multi-week odyssey into frontend development learning, with weekly websites as an outcome.
 
-## Using this example
+## Week 1 - London Cycle Stations
+### Project Goals
+Create a basic website fetching data from an api and rendering it in the UI.
+Create a monorepo to host this and future websites.
+Deploy the website.
 
-Run the following command:
+### Learnings
+`Turborepo` is a great tool for setting up monorepos, but it comes with a need to carefully manage dependency conflicts
 
-```sh
-npx create-turbo@latest -e with-vite-react
-```
+### Actions
+- Setup a monorepo with `turborepo`
+- Selected and interacted with API to get up to date london santander cycles station data
+- Deployed website via Vercel
+- Populated station data to map using open-source map provider
 
-## What's inside?
+### Notes
 
-This Turborepo includes the following packages and apps:
-
-### Apps and Packages
-
-- `web`: react [vite](https://vitejs.dev) ts app
-- `@repo/ui`: a stub component library shared by `web` application
-- `@repo/eslint-config`: shared `eslint` configurations
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+#### Technologies
+`React + TS`: Framework for frontend
+`Vite`: Tool to build and package frontend
+`Turborepo`: Monorepo solution
+`Vercel`: Platform to deploy websites
