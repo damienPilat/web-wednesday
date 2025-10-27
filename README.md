@@ -20,7 +20,7 @@ Deploy the website.
 ### Notes
 
 #### Technologies
-`React + TS`: Framework for frontend
-`Vite`: Tool to build and package frontend
-`Turborepo`: Monorepo solution
-`Vercel`: Platform to deploy websites
+`React + TS`: Framework for frontend<br>
+`Vite`: Tool to build and package frontend<br>
+`Turborepo`: Monorepo solution<br>
+`Vercel`: Platform to deploy websites<br>
