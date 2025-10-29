@@ -1,0 +1,8 @@
+.pill {
+    border-radius: 40px;
+    border: 1px solid var(--bg-primary);
+    color: var(--bg-primary);
+    width: fit-content;
+    padding: 0 var(--spacing-small);
+    font-size: .75rem;
+}

@@ -1,0 +1,44 @@
+.experience-container {
+    display: grid;
+    gap: var(--spacing-medium);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+            "photo text"
+            "photo card";
+}
+
+.photo-section {
+    grid-area: photo;
+
+    img {
+        width: 100%;
+        border-radius: var(--radius);
+    }
+}
+
+.text-section {
+    grid-area: text;
+    align-self: center;
+
+    display: grid;
+    place-items: center;
+
+    padding: 0 30%;
+
+    h2 {
+        font-weight: normal;
+        font-size: 2rem;
+        line-height: 1.8rem;
+    }
+
+    p {
+        font-size: .8rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+.card-section {
+    grid-area: card;
+}
