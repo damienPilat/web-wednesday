@@ -1,0 +1,48 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr auto;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+            "text links icon"
+            "contact logo logo";
+}
+
+.description {
+    grid-area: text;
+    p {
+        font-size: 12px;
+    }
+}
+
+.links {
+    grid-area: links;
+    align-self: center;
+    ul {
+        list-style: none;
+        text-align: left;
+    }
+}
+
+.button {
+    align-self: flex-end;
+    border: 1px solid black;
+    border-radius: 40px;
+    height: 25px;
+    aspect-ratio: 1;
+    padding: var(--spacing-small);
+
+    display: grid;
+    place-items: center;
+}
+
+.to-top {
+    grid-area: icon;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+.logo {
+    grid-area: logo;
+}

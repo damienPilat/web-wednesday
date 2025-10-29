@@ -4,10 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4dfc14-cd54-48fd-ab95-894948c27f1e" name="Changes" comment="Update readme">
-      <change beforePath="$PROJECT_DIR$/apps/london-cycle-stations/src/components/Station/StationContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/london-cycle-stations/src/components/Station/StationContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/london-cycle-stations/src/hooks/useDebounceFunc.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/package.json" afterDir="false" />
+    <list default="true" id="5f4dfc14-cd54-48fd-ab95-894948c27f1e" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/assets/flashback-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/assets/sports-scene.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/assets/water-topdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/ExperienceSection/ExperienceSection.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/ExperienceSection/ExperienceSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/FooterSection/FooterSection.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/FooterSection/FooterSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/Header/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/IntroSection/IntroSection.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/IntroSection/IntroSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/ui/CustomButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/ui/CustomButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/ui/Pill.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/ui/Pill.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/ui/TextCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/ui/TextCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/landing-page/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/landing-page/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/landing-page/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/apps/landing-page/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/landing-page/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/landing-page/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +35,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -29,7 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "landing-page",
     "last_opened_file_path": "/Users/damien/IdeaProjects/web-wednesdays/packages/ui/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -46,6 +70,9 @@
       <recent name="$PROJECT_DIR$/packages/ui/components" />
       <recent name="$PROJECT_DIR$/apps/london-cycle-stations" />
       <recent name="$PROJECT_DIR$/apps/london-bike-stations" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/landing-page/src/assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -81,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761148407566</updated>
       <workItem from="1761148409601" duration="721000" />
-      <workItem from="1761149158511" duration="1549000" />
+      <workItem from="1761149158511" duration="15289000" />
     </task>
     <task id="LOCAL-00001" summary="Update readme">
       <option name="closed" value="true" />
@@ -91,7 +118,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761150247838</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add lucide-react, comment on errors">
+      <option name="closed" value="true" />
+      <created>1761150840812</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761150840812</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1761564143767</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761564143767</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +160,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update readme" />
+    <MESSAGE value="Add lucide-react, comment on errors" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>

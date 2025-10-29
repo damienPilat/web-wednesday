@@ -1,0 +1,23 @@
+#root {
+  --spacing-xsmall: 6px;
+  --spacing-small: 12px;
+  --spacing-medium: 24px;
+  --spacing-large: 48px;
+
+  --radius: 40px;
+  --gap: 1rem;
+
+  --bg-primary: rgb(255, 255, 255);
+  --gray: rgb(240, 240, 240);
+
+  width: 100vw;
+  margin: 0 auto;
+  padding: var(--gap);
+
+  text-align: center;
+
+  gap: var(--spacing-medium);
+
+  background-color: var(--gray);
+}
+

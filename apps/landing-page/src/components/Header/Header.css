@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: var(--radius);
+    background-color: var(--bg-primary);
+    padding: 0 var(--spacing-small);
+}
+
+.time-location {
+    flex-grow: 1;
+    display: flex;
+    margin-left: var(--spacing-medium);
+    gap: var(--spacing-small);
+
+    .location {
+        font-weight: bold;
+    }
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: var(--spacing-medium);
+    gap: var(--spacing-small);
+
+    .bookmark,
+    .cart {
+        display: flex;
+        align-items: center;
+    }
+
+    .profile {
+        border: 2px solid var(--gray);
+        padding: var(--spacing-xsmall) var(--spacing-small);
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-small);
+    }
+}

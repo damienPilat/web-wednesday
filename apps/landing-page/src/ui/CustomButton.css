@@ -1,0 +1,27 @@
+.custom-button {
+    display: flex;
+    align-items: center;
+    & > * {
+        background-color: var(--bg-primary);
+        border-radius: 30px;
+        color: black;
+        width: fit-content;
+    }
+    p {
+        font-size: .75rem;
+        padding: var(--spacing-small) var(--spacing-medium);
+    }
+    .icon-container {
+        display: grid;
+        place-items: center;
+        height: 42px;
+        aspect-ratio: 1;
+    }
+    .icon {
+        background-color: black;
+        border-radius: 40px;
+        height: 38px;
+        aspect-ratio: 1;
+        color: var(--bg-primary);
+    }
+}

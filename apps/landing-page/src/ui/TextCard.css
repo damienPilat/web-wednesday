@@ -1,0 +1,36 @@
+.text-card-container {
+    background-color: var(--bg-primary);
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 250px;
+    padding: var(--spacing-medium);
+    border-radius: var(--spacing-small);
+}
+
+.button {
+    align-self: flex-end;
+    border: 1px solid black;
+    border-radius: 40px;
+    aspect-ratio: 1;
+    padding: var(--spacing-small);
+
+    display: grid;
+    place-items: center;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+footer {
+    border-top: 1px solid var(--gray);
+    display: flex;
+    justify-content: space-between;
+    & > * {
+        font-size: .8rem;
+    }
+}
