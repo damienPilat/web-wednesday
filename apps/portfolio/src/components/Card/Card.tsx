@@ -3,15 +3,20 @@ import "./Card.css";
 import type {Project} from "../../types/type";
 import TechSection from "../TechSection/TechSection";
 
+import CycleMapThumbnail from "../../assets/thumbnail/london-cycle-stations.png"
+import LandingPageThumbnail from "../../assets/thumbnail/landing-page.png"
+import ProjectPortfolioThumbnail from "../../assets/thumbnail/webWed-portfolio.png"
+import DesignSystemThumbnail from "../../assets/thumbnail/design-system.png"
+
 const lightColor = 'rgba(219, 216, 253, 80%)';
 const darkColor = '#080345';
 
 export default function Card({
                                  number,
                                  date,
+                                 codeName,
                                  title,
                                  desc,
-                                 url,
                                  imgPath,
                                  variant = "primary",
                                  tech
@@ -25,6 +30,19 @@ export default function Card({
                 return lightColor;
             case "secondary":
                 return darkColor;
+        }
+    }
+
+    const projectImage = () => {
+        switch (codeName) {
+            case "cycleMap":
+                return CycleMapThumbnail;
+            case "landingPage":
+                return LandingPageThumbnail;
+            case "projectPortfolio":
+                return ProjectPortfolioThumbnail;
+            case "designSystem":
+                return DesignSystemThumbnail;
         }
     }
 
@@ -42,13 +60,13 @@ export default function Card({
                         <div className="number">{`{ ww${paddedNumber(number)} }`}</div>
                         <div className="date">{date}</div>
                     </div>
-                    <a className="image" href={url} target="_blank">
+                    <a className="image" href={projectImage()} target="_blank">
                         <img src={imgPath} alt="Thumbnail of project"/>
                     </a>
                     <div className="bottom">
                         <h3 className="title">{title}</h3>
                         <p className="desc">{desc}</p>
-                        {tech && <TechSection tech={tech} />}
+                        {tech && <TechSection tech={tech}/>}
                     </div>
                 </div>
             </Monoco>

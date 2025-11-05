@@ -1,3 +1,7 @@
+import ReactLogo from '../../assets/technology/react.svg';
+import TypescriptLogo from '../../assets/technology/typescript.svg';
+import FetchApiLogo from '../../assets/technology/fetchAPI.png';
+import LucideLogo from '../../assets/technology/lucide.svg';
 import type {Project, Tech} from "../../types/type";
 import './TechSection.css';
 
@@ -8,25 +12,25 @@ export default function TechSection({tech}: { tech: NonNullable<Project['tech']>
             case "react":
                 return (
                     <a href="https://react.dev/" target="_blank">
-                        <img src="./src/assets/technology/react.svg" alt="technology icon" />
+                        <img src={ReactLogo} alt="technology icon" />
                     </a>
                 )
             case "typescript":
                 return (
                     <a href="https://www.typescriptlang.org/" target="_blank">
-                        <img src="./src/assets/technology/typescript.svg" alt="technology icon" />
+                        <img src={TypescriptLogo} alt="technology icon" />
                     </a>
                 )
             case "bikeApi":
                 return (
                     <a href="https://api.citybik.es/v2/" target="_blank">
-                        <img src="./src/assets/technology/fetchAPI.png" alt="technology icon" />
+                        <img src={FetchApiLogo} alt="technology icon" />
                     </a>
                 )
             case "lucide":
                 return (
                     <a href="https://lucide.dev/" target="_blank">
-                        <img src="./src/assets/technology/lucide.svg" alt="technology icon" />
+                        <img src={LucideLogo} alt="technology icon" />
                     </a>
                 )
             default:

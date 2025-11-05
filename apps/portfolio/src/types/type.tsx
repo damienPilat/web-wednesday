@@ -3,10 +3,9 @@ export interface Project {
     date: string,
     title: string,
     desc: string,
-    url: string,
+    codeName: CodeNames,
     imgPath: string,
-    tech?: ("react" | "typescript" | "bikeApi" | "lucide")[]
-    techBis?: Tech[]
+    tech?: Tech[]
     variant?: 'primary' | 'secondary',
 }
 
@@ -18,3 +17,12 @@ const tech = {
 } as const;
 
 export type Tech = (typeof tech)[keyof typeof tech]
+
+const codeNames = {
+    designSystem: "designSystem",
+    projectPortfolio: "projectPortfolio",
+    landingPage: "landingPage",
+    cycleMap: "cycleMap"
+} as const;
+
+export type CodeNames = (typeof codeNames)[keyof typeof codeNames]

@@ -9,10 +9,10 @@ export default function Projects ({projects}: {projects: Project[]}) {
                 <Card
                     key={project.number}
                     number={project.number}
+                    codeName={project.codeName}
                     date={project.date}
                     title={project.title}
                     desc={project.desc}
-                    url={project.url}
                     imgPath={project.imgPath}
                     variant={project.variant}
                     tech={project.tech}

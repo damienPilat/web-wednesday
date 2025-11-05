@@ -1,6 +1,16 @@
 .heading {
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: flex-start;
+    background-color: var(--color-white);
+    box-shadow: 0 0 4px lightgray;
+    z-index: 2;
+
+    img {
+        width: 150px;
+        padding: 30px;
+    }
 }
