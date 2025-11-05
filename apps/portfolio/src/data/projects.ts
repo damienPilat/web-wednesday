@@ -7,7 +7,7 @@ const projects : Project[] = [
         date: '12 nov 2025',
         title: 'Design System [Coming Soon]',
         desc: 'Exploring modern design system builds',
-        imgPath: './src/assets/thumbnail/design-system.png',
+        url: 'https://web-wednesday.vercel.app',
         variant: "secondary",
     },
     {
@@ -16,7 +16,7 @@ const projects : Project[] = [
         codeName: 'projectPortfolio',
         title: 'Project blog page',
         desc: 'Compilation of all websites done for this project',
-        imgPath: './src/assets/thumbnail/webWed-portfolio.png',
+        url: 'https://web-wednesday.vercel.app',
         tech: ['typescript', 'react']
     },
     {
@@ -25,7 +25,7 @@ const projects : Project[] = [
         codeName: 'landingPage',
         title: 'Landing page',
         desc: 'Building from a design brief',
-        imgPath: './src/assets/thumbnail/landing-page.png',
+        url: 'https://web-wednesdays-landing-page.vercel.app',
         variant: "secondary",
         tech: ['lucide', 'typescript', 'react']
     },
@@ -35,7 +35,7 @@ const projects : Project[] = [
         codeName: "cycleMap",
         title: 'Cycle station map',
         desc: 'Visualise realtime cycle station data',
-        imgPath: './src/assets/thumbnail/london-cycle-stations.png',
+        url: 'https://london-cycle-stations.vercel.app',
         tech: ['bikeApi', 'typescript', 'react']
     },
 ]

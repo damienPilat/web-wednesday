@@ -4,7 +4,7 @@ export interface Project {
     title: string,
     desc: string,
     codeName: CodeNames,
-    imgPath: string,
+    url: string,
     tech?: Tech[]
     variant?: 'primary' | 'secondary',
 }

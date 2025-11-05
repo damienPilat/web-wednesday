@@ -5,7 +5,7 @@ import "./Projects.css"
 export default function Projects ({projects}: {projects: Project[]}) {
     return (
         <div className="projects-container">
-            {projects && projects.reverse().map((project) =>
+            {projects && projects.map((project) =>
                 <Card
                     key={project.number}
                     number={project.number}
@@ -13,7 +13,7 @@ export default function Projects ({projects}: {projects: Project[]}) {
                     date={project.date}
                     title={project.title}
                     desc={project.desc}
-                    imgPath={project.imgPath}
+                    url={project.url}
                     variant={project.variant}
                     tech={project.tech}
                 />

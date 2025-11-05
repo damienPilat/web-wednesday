@@ -17,7 +17,7 @@ export default function Card({
                                  codeName,
                                  title,
                                  desc,
-                                 imgPath,
+                                 url,
                                  variant = "primary",
                                  tech
                              }: Project) {
@@ -60,8 +60,8 @@ export default function Card({
                         <div className="number">{`{ ww${paddedNumber(number)} }`}</div>
                         <div className="date">{date}</div>
                     </div>
-                    <a className="image" href={projectImage()} target="_blank">
-                        <img src={imgPath} alt="Thumbnail of project"/>
+                    <a className="image" href={url} target="_blank">
+                        <img src={projectImage()} alt="Thumbnail of project"/>
                     </a>
                     <div className="bottom">
                         <h3 className="title">{title}</h3>
