@@ -1,5 +1,11 @@
 {
+  "name": "web-wednesday-monorepo",
+  "version": "1.0.0",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -11,6 +17,5 @@
     "prettier": "^3.2.5",
     "turbo": "^2.5.8"
   },
-  "packageManager": "pnpm@8.15.6",
-  "name": "with-vite-react"
+  "packageManager": "pnpm@8.15.6"
 }
