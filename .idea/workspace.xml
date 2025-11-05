@@ -4,35 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4dfc14-cd54-48fd-ab95-894948c27f1e" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/assets/flashback-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/assets/sports-scene.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/assets/water-topdown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/ExperienceSection/ExperienceSection.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/ExperienceSection/ExperienceSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/FooterSection/FooterSection.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/FooterSection/FooterSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/Header/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/IntroSection/IntroSection.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/components/IntroSection/IntroSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/ui/CustomButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/ui/CustomButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/ui/Pill.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/ui/Pill.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/ui/TextCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/landing-page/src/ui/TextCard.tsx" afterDir="false" />
+    <list default="true" id="5f4dfc14-cd54-48fd-ab95-894948c27f1e" name="Changes" comment="remove unused rules">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/landing-page/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/landing-page/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/landing-page/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/apps/landing-page/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/landing-page/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/landing-page/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/portfolio/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/portfolio/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/components/Search/SearchBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/components/Search/SearchBar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -50,28 +37,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "landing-page",
-    "last_opened_file_path": "/Users/damien/IdeaProjects/web-wednesdays/packages/ui/components",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "npm.london-bike-stations > dev.executor": "Run",
-    "ts.external.directory.path": "/Users/damien/IdeaProjects/web-wednesdays/apps/web/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;portfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/damien/IdeaProjects/web-wednesdays/apps/portfolio/src/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;npm.london-bike-stations &gt; dev.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/damien/IdeaProjects/web-wednesdays/apps/web/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/portfolio/src/assets" />
+      <recent name="$PROJECT_DIR$/apps/portfolio/fonts" />
       <recent name="$PROJECT_DIR$/packages/ui/components" />
       <recent name="$PROJECT_DIR$/apps/london-cycle-stations" />
       <recent name="$PROJECT_DIR$/apps/london-bike-stations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/portfolio/src/assets/thumbnail" />
+      <recent name="$PROJECT_DIR$/apps/portfolio/src/assets/technology" />
+      <recent name="$PROJECT_DIR$/apps/portfolio/src/assets" />
+      <recent name="$PROJECT_DIR$/apps/portfolio/public" />
       <recent name="$PROJECT_DIR$/apps/landing-page/src/assets" />
     </key>
   </component>
@@ -88,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.london-bike-stations &gt; dev" />
         <item itemvalue="npm.london-bike-stations &gt; dev" />
       </list>
     </recent_temporary>
@@ -108,7 +103,9 @@
       <option name="presentableId" value="Default" />
       <updated>1761148407566</updated>
       <workItem from="1761148409601" duration="721000" />
-      <workItem from="1761149158511" duration="15289000" />
+      <workItem from="1761149158511" duration="18436000" />
+      <workItem from="1762178772031" duration="86000" />
+      <workItem from="1762178876759" duration="19008000" />
     </task>
     <task id="LOCAL-00001" summary="Update readme">
       <option name="closed" value="true" />
@@ -134,34 +131,86 @@
       <option name="project" value="LOCAL" />
       <updated>1761564143767</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="landing page project">
+      <option name="closed" value="true" />
+      <created>1761744656372</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761744656373</updated>
+    </task>
+    <task id="LOCAL-00005" summary="web-wednesday portfolio initial commit">
+      <option name="closed" value="true" />
+      <created>1762366543417</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762366543418</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add workspaces to turborepo package">
+      <option name="closed" value="true" />
+      <created>1762367173432</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762367173432</updated>
+    </task>
+    <task id="LOCAL-00007" summary="remove unused rules">
+      <option name="closed" value="true" />
+      <created>1762367181668</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762367181668</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/hooks/useInterval.js" />
-        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/hooks/useDebounce.js" />
-        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/hooks/useDebounceFunc.js" />
-        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/hooks/useStationData.js" />
-        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/hooks/usePagination.js" />
-        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/main.js" />
-        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/components/Station/StationSearchBar.js" />
-        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/components/Station/Filters.js" />
-        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/components/Station/StationCard.js" />
-        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/components/Station/StationCardSkeleton.js" />
-        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/components/Station/StationContainer.js" />
-        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/type/StationData.js" />
-        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/components/Map/FitMarkersToView.js" />
-        <option value="$PROJECT_DIR$/apps/london-bike-stations/src/components/Map/Map.js" />
+        <option value="$PROJECT_DIR$/apps/portfolio/src/main.js" />
+        <option value="$PROJECT_DIR$/apps/portfolio/src/App.js" />
+        <option value="$PROJECT_DIR$/apps/portfolio/src/types/type.js" />
+        <option value="$PROJECT_DIR$/apps/portfolio/src/components/TagLine/TagLine.js" />
+        <option value="$PROJECT_DIR$/apps/portfolio/src/components/TechSection/TechSection.js" />
+        <option value="$PROJECT_DIR$/apps/portfolio/src/components/Card/Card.js" />
+        <option value="$PROJECT_DIR$/apps/portfolio/src/components/Heading/Heading.js" />
+        <option value="$PROJECT_DIR$/apps/portfolio/src/components/Projects/Projects.js" />
       </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="GitHub.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update readme" />
     <MESSAGE value="Add lucide-react, comment on errors" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="landing page project" />
+    <MESSAGE value="web-wednesday portfolio initial commit" />
+    <MESSAGE value="add workspaces to turborepo package" />
+    <MESSAGE value="remove unused rules" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove unused rules" />
   </component>
 </project>
