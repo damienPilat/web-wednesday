@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4dfc14-cd54-48fd-ab95-894948c27f1e" name="Changes" comment="remove unused rules">
+    <list default="true" id="5f4dfc14-cd54-48fd-ab95-894948c27f1e" name="Changes" comment="resolve eslint module issue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/portfolio/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/portfolio/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/components/Search/SearchBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/components/Search/SearchBar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,7 @@
       <workItem from="1761148409601" duration="721000" />
       <workItem from="1761149158511" duration="18436000" />
       <workItem from="1762178772031" duration="86000" />
-      <workItem from="1762178876759" duration="19008000" />
+      <workItem from="1762178876759" duration="19311000" />
     </task>
     <task id="LOCAL-00001" summary="Update readme">
       <option name="closed" value="true" />
@@ -163,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762367181668</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="resolve eslint module issue">
+      <option name="closed" value="true" />
+      <created>1762368332673</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1762368332673</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +217,7 @@
     <MESSAGE value="web-wednesday portfolio initial commit" />
     <MESSAGE value="add workspaces to turborepo package" />
     <MESSAGE value="remove unused rules" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove unused rules" />
+    <MESSAGE value="resolve eslint module issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolve eslint module issue" />
   </component>
 </project>
