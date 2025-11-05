@@ -2,6 +2,10 @@
 
 A multi-week odyssey into frontend development learning, with weekly websites as an outcome.
 
+## Week 3 - Portfolio page for these projects
+
+## Week 2 - Landing Page from Design Brief
+
 ## Week 1 - London Cycle Stations
 ### Project Goals
 Create a basic website fetching data from an api and rendering it in the UI.
