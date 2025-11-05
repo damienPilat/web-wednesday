@@ -1,7 +1,7 @@
 import { createRoot } from "react-dom/client";
 import "./style.css";
 import typescriptLogo from "/typescript.svg";
-import { Header, Counter } from "@repo/ui";
+import { Header } from "@repo/ui";
 
 const App = () => (
   <div>
@@ -16,9 +16,6 @@ const App = () => (
       />
     </a>
     <Header title="Web" />
-    <div className="card">
-      <Counter />
-    </div>
   </div>
 );
 

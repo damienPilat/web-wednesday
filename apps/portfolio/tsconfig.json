@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+//    "module": "ESNext"
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+//  "files": [],
+//  "references": [
+//    { "path": "./tsconfig.app.json" },
+//    { "path": "./tsconfig.node.json" }
+//  ]
+}

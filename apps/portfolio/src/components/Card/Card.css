@@ -1,0 +1,55 @@
+.card {
+    width: 400px;
+}
+
+.secondary {
+    color: white;
+}
+
+.inner-card {
+    padding: 55px 45px 25px 45px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    display: grid;
+    place-items: center;
+
+    height: 250px;
+    margin: 95px 0;
+    border-radius: 40px;
+
+    box-shadow: 0 0 15px var(--color-white);
+    outline: 3px solid transparent;
+
+    img {
+        width: 95%;
+        overflow: hidden;
+    }
+    img:hover {
+        width: 100%;
+        transition: var(--transition-time);
+    }
+}
+
+.image:hover {
+    box-shadow: 0 0 10px var(--color-secondary);
+    transition: var(--transition-time);
+}
+
+.bottom {
+    text-align: left;
+    min-height: 145px;
+}
+
+h3 {
+    margin-block-end: 0;
+}
+
+p {
+    margin: unset;
+}
