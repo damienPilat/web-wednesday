@@ -1,5 +1,7 @@
 {
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
+    "types": ["vite/client", "@web-wednesday/types"],
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
@@ -10,7 +12,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"],
+  "include": ["src", "../../packages/types"],
   "exclude": [
     "node_modules",
     "dist"

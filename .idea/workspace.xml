@@ -4,8 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f4dfc14-cd54-48fd-ab95-894948c27f1e" name="Changes" comment="resolve eslint module issue">
+    <list default="true" id="5f4dfc14-cd54-48fd-ab95-894948c27f1e" name="Changes" comment="update with week2+3">
+      <change afterPath="$PROJECT_DIR$/apps/portfolio/src/assets/webWed-favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/portfolio/src/data/projects.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/types/src/assets.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/types/src/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.base.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/portfolio/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/portfolio/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/apps/portfolio/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/portfolio/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/portfolio/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/portfolio/src/components/Card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/portfolio/src/components/Card/Card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/portfolio/src/components/Heading/Heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/apps/portfolio/src/components/Heading/Heading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/portfolio/src/components/Heading/Heading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/portfolio/src/components/Heading/Heading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/portfolio/src/components/Projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/portfolio/src/components/Projects/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/portfolio/src/components/TagLine/TagLine.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/portfolio/src/components/TagLine/TagLine.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/portfolio/src/components/TechSection/TechSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/portfolio/src/components/TechSection/TechSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/portfolio/src/types/type.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/portfolio/src/types/type.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/portfolio/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/portfolio/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="portfolio" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,22 +54,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;portfolio&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/damien/IdeaProjects/web-wednesdays/apps/portfolio/src/assets&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;npm.london-bike-stations &gt; dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/damien/IdeaProjects/web-wednesdays/apps/web/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/damien/IdeaProjects/web-wednesdays/apps/portfolio/src/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "npm.london-bike-stations > dev.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "/Users/damien/IdeaProjects/web-wednesdays/apps/web/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/apps/portfolio/src/assets" />
@@ -82,6 +101,7 @@
       <list>
         <item itemvalue="npm.london-bike-stations &gt; dev" />
         <item itemvalue="npm.london-bike-stations &gt; dev" />
+        <item itemvalue="npm.london-bike-stations &gt; dev" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +123,7 @@
       <workItem from="1761148409601" duration="721000" />
       <workItem from="1761149158511" duration="18436000" />
       <workItem from="1762178772031" duration="86000" />
-      <workItem from="1762178876759" duration="19311000" />
+      <workItem from="1762178876759" duration="24925000" />
     </task>
     <task id="LOCAL-00001" summary="Update readme">
       <option name="closed" value="true" />
@@ -169,7 +189,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762368332673</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="resolve build issue">
+      <option name="closed" value="true" />
+      <created>1762369057031</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762369057031</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update with week2+3">
+      <option name="closed" value="true" />
+      <created>1762369071473</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1762369071473</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +220,7 @@
         <option value="$PROJECT_DIR$/apps/portfolio/src/components/Card/Card.js" />
         <option value="$PROJECT_DIR$/apps/portfolio/src/components/Heading/Heading.js" />
         <option value="$PROJECT_DIR$/apps/portfolio/src/components/Projects/Projects.js" />
+        <option value="$PROJECT_DIR$/apps/portfolio/src/data/projects.js" />
       </list>
     </option>
   </component>
@@ -218,6 +255,8 @@
     <MESSAGE value="add workspaces to turborepo package" />
     <MESSAGE value="remove unused rules" />
     <MESSAGE value="resolve eslint module issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="resolve eslint module issue" />
+    <MESSAGE value="resolve build issue" />
+    <MESSAGE value="update with week2+3" />
+    <option name="LAST_COMMIT_MESSAGE" value="update with week2+3" />
   </component>
 </project>
