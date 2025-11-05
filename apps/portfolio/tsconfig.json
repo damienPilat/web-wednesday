@@ -3,7 +3,6 @@
     "jsx": "react-jsx",
     "strict": true,
     "esModuleInterop": true,
-//    "module": "ESNext"
   },
   "include": [
     "src/**/*.ts",
@@ -13,9 +12,4 @@
     "node_modules",
     "dist"
   ],
-//  "files": [],
-//  "references": [
-//    { "path": "./tsconfig.app.json" },
-//    { "path": "./tsconfig.node.json" }
-//  ]
 }
